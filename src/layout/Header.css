@@ -1,0 +1,11 @@
+.header-container {
+  background-color: #182434;
+  color: #dcd9d8;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
