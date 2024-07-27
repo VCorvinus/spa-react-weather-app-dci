@@ -12,6 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const handleOnSearchChange = (searchData) => {
+    setLoading(true);
     const [lat, lon] = searchData.value.split(" ");
 
     const currentWeatherFetch = fetch(
